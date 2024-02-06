@@ -1,0 +1,292 @@
+/* Header */
+header {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: #093B47;
+
+}
+
+nav{
+    width:30%;
+}
+
+.navItems{
+    padding:2%;
+}
+
+.navTab {
+    text-align: right;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Adumu', sans-serif;
+    margin-top:10%;
+    width:100%;
+    margin-left:-10%;
+}
+
+/* Sticky */
+.header {
+    padding-bottom: 10px;
+    background: #33CF1E;
+    z-index:1000;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+.RobofrogLogo {
+    width: 7%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.DeliveryLogo {
+    width: 15%;
+    filter: drop-shadow(#f1f1f156 -3px 2px);
+    margin-right:-20%;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-shadow: #26525F -3px 2px;
+    font-size: 150%;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: #f1f1f1;
+}
+
+/* BODY */
+body {
+    margin: 0;
+    background: #00a5fb;
+    overflow-x: hidden;
+    
+}
+
+
+.slogan {
+    color: #f1f1f1;
+    text-align: center;
+    text-shadow: #093b47b9 -6px 5px;
+    padding-top: 5%;
+    letter-spacing: 5px;
+    font-family: 'Adumu';
+    font-size: 500%;
+}
+
+.splashArt {
+    width: 100%;
+    background: #33CF1E;
+}
+
+/*ABOUT PAGE*/
+
+.aboutTitleLogo{
+    width: 30%;
+    filter: drop-shadow(#22222256 -3px 2px);
+    display: block;
+    margin:auto;
+}
+
+.textoAbout{
+    font-family: 'Gagalin', sans-serif;
+    color:#f1f1f1;
+    text-align:center;
+    font-size:300%;
+    padding-top:10%;
+    margin-left:10%;
+    width:60%;
+    filter: drop-shadow(#22222256 -3px 2px);
+
+}
+
+.autoImg{
+    width:40%;
+}
+
+/*STORE PAGE*/ 
+.logoStore {
+    width:20%; 
+    margin-left:30%;
+    filter: drop-shadow(#22222256 -3px 2px);
+ }
+ 
+ .logoStoreNintendo{
+     width:40%; 
+     margin-left:10%;
+     filter: drop-shadow(#22222256 -3px 2px);
+  }
+ 
+ 
+ a {
+     color: #f1f1f1;
+     text-decoration: none;
+     text-shadow: #26525F -3px 2px;
+     font-size: 150%;
+     
+ }
+ 
+ a:hover {
+     text-decoration: underline;
+ }
+ 
+ a:link,
+ a:visited {
+     color: #f1f1f1;
+ }
+ 
+ 	
+.column {
+    flex: 50%;
+    padding: 5px;
+  }
+  img {
+    width: 100%;
+  }
+  .container {
+     display: flex;
+  }
+
+.center{
+    justify-content:center;
+
+}
+
+.imgContainer{
+    float:left;
+}
+
+/*TRAILER PAGE*/
+
+iframe{
+    aspect-ratio: 16/9;
+    width:80%;
+    height:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+/*CAREERS FORM*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Gagalin';
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #04679c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Gagalin';
+  }
+  
+  input[type=submit]:hover {
+    background-color: #00a5fb;
+  }
+  
+  .formBG{
+    background-color:#f1f1f1;
+    border-radius: 5px;
+    display: grid;
+    place-items:center;
+    width: 50%;
+    margin-left:25%;
+    padding-top: 2PX;
+
+  }
+
+  .formLabel{
+    font-family: 'Gagalin';
+
+  }
+
+  form {
+    width:50%;
+  }
+/* FOOTER */
+
+
+footer {
+    background: #093B47;
+    padding: 16px;
+    color: #f1f1f1;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myFooter {
+    padding-top: 10px;
+    background: #33CF1E;
+}
+
+.linesDeco {
+    width: 7%;
+}
+
+
+
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnRs {
+    width:10%;
+    flex: 10%;
+    padding: 5px;
+    column-gap:10%;
+  }
+  img {
+    width: 100%;
+  }
+  .containerRs {
+     display: flex;
+     width:10%;
+  }
+
+.rsIconsIg{
+    width:80%;
+
+}
+.rsIconsTt{
+    width: 60%;
+}
+
+.rsIconsYt{
+    width:80%;
+}
+
